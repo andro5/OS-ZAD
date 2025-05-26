@@ -1,4 +1,4 @@
-# Operacijski sustavi Zadaća '25
+# Operacijski sustavi Zadaće '25 FSRE
 Andrej Kesten 2299/RR (www.github.com/andro5)
 
 ## Opis
