@@ -1,5 +1,5 @@
 # Operacijski sustavi Zadaća '25
-Andrej Kesten 2299/RR (github.com/andro5)
+Andrej Kesten 2299/RR (www.github.com/andro5)
 
 ## Opis
 20.5.'25
@@ -28,6 +28,7 @@ idućeg broja morati „analizirati“ datoteku obrada.txt i od tamo zaključiti
 uvijek mogu biti u nizu open+fscanf/fprintf+close, tj. ne držati datoteke otvorenima da se 
 izbjegnu neki drugi problemi. Ali ne mora se tako. U obradu dodati odgodu (npr. sleep(5)) 
 da se uspori izvođenje.
+##
 -> Zad 2.
  Dekkerov postupak međusobnog isključivanja
   Ostvariti sustav paralelnih procesa/dretvi. Struktura
@@ -65,5 +66,5 @@ izađi iz kritičnog odsječka
 ## Instalacija
 
 ```bash
-git clone [https://github.com/andro5/OS-ZAD.git]
+git clone https://github.com/andro5/OS-ZAD.git
 cd OS-ZAD
