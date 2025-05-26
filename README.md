@@ -3,6 +3,7 @@ Andrej Kesten 2299/RR (www.github.com/andro5)
 
 ## Opis
 20.5.'25
+##
 -> Zad 1.
 Neka program simulira neki dugotrajni posao (slično servisima) koji koristi dvije datoteke: 
 u jednu dodaje do sada izračunate vrijednosti (npr. kvadrati slijednih brojeva), a u drugu 
@@ -46,8 +47,9 @@ k = 1 do
  ispiši (i, k, m)      
 izađi iz kritičnog odsječka
  kraj
-
+##
  26.5.'25
+ ##
  -> Zad 3.
  Ostvariti program koji simulira tijek rezervacije stolova u nekom
  restoranu. Program na početku treba stvoriti određeni broj dretvi koji
