@@ -81,6 +81,7 @@ Modelirati
  ukupno N) te prije nego li svi prethodni posjetitelji siđu. Vrtuljak se može
  pokrenuti tek kada je pun. Za sinkronizaciju koristiti opće semafore i dodatne
  varijable
+ ##
  -> Zad 5.
   S pomoću više dretvi riješiti problem pet filozofa koristeći
  koncept monitora. Pri svakoj promjeni program mora
