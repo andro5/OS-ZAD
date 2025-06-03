@@ -31,8 +31,8 @@ izbjegnu neki drugi problemi. Ali ne mora se tako. U obradu dodati odgodu (npr. 
 da se uspori izvođenje.
 ##
 -> Zad 2.
- Dekkerov postupak međusobnog isključivanja
-  Ostvariti sustav paralelnih procesa/dretvi. Struktura
+Dekkerov postupak međusobnog isključivanja
+ Ostvariti sustav paralelnih procesa/dretvi. Struktura
  procesa/dretvi dana je sljedećim pseudokodom:
  proces
  za
@@ -64,6 +64,37 @@ izađi iz kritičnog odsječka
  stolova se također zadaje u naredbenom retku. Svaka dretva
  ponavlja isti postupak sve dok više nema slobodnih stolova.
  Program završava kada sve dretve završe.
+ ##
+ 2.6.'25
+ ##
+ -> Zad 4.
+Modelirati
+ vrtuljak
+ (ringišpil)
+ s
+ dva
+ tipa
+ dretvi/procesa:
+ dretvama/procesima posjetitelj (koje predstavljaju posjetitelje koji žele na
+ vožnju) te dretvom/procesom vrtuljak. Dretvama/procesima posjetitelj se ne
+ smije dozvoliti ukrcati na vrtuljak kada više nema praznih mjesta (kojih je
+ ukupno N) te prije nego li svi prethodni posjetitelji siđu. Vrtuljak se može
+ pokrenuti tek kada je pun. Za sinkronizaciju koristiti opće semafore i dodatne
+ varijable
+ -> Zad 5.
+  S pomoću više dretvi riješiti problem pet filozofa koristeći
+ koncept monitora. Pri svakoj promjeni program mora
+ vizualno prikazati za sve filozofe što oni rade. Npr. kada
+ filozof 4 ide jesti, tada treba ispis izgledati otprilike ovako:
+ "Stanje filozofa: X o O X o" (X-jede, O-razmišlja, o-čeka na
+ vilice).
+ Problem pet filozofa. Filozofi obavljaju samo dvije različite
+ aktivnosti: misle ili jedu. To rade na poseban način. Na
+ jednom okruglom stolu nalazi se pet tanjura te pet štapića
+ (između svaka dva tanjura po jedan). Filozof prilazi stolu,
+ uzima lijevi štapić, pa desni te jede. Zatim vraća štapiće na
+ stol i odlazi misliti.
+
 
 ## Instalacija
 
